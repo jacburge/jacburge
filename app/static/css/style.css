@@ -20,7 +20,7 @@ p, li {
 a {
 	text-decoration:none;
 	color:#333333;
-	font-size:28px;
+	font-size:24px;
 	transition:.3s;
 	-webkit-transition:.3s;
 	-moz-transition:.3s;
@@ -61,7 +61,7 @@ a:hover {
 }
 
 #nav-bar a {
-	font-size:32px;
+	font-size:24px;
 	color:#333333;
 }
 
@@ -97,13 +97,13 @@ a:hover {
 
 .aurore {
 	font-family: 'La Belle Aurore', cursive;
-	font-size:42px;
+	font-size:36px;
 }
 
 .text-box {
 	border:2px solid grey;
 	padding:2%;
-	font-size:24px;
+	font-size:20px;
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
@@ -165,10 +165,10 @@ a:hover {
 	background-color: white;
 	opacity:.95;
 	background-image: url(../img/jfb.svg);
-	background-size:320px;
+	background-size:220px;
 	border-radius:50%;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	overflow:hidden;
 	position:relative;
 	margin-left:auto;
@@ -182,7 +182,7 @@ a:hover {
 	font-family: 'La Belle Aurore', cursive;
 	position:relative;
 	text-align: center;
-	font-size:76px;
+	font-size:60px;
 	font-weight:400;
 	margin-top:10px;
 	z-index: 3;
@@ -191,7 +191,7 @@ a:hover {
 #home-subtext {
 	position:relative;
 	text-align:center;
-	font-size:32px;
+	font-size:28px;
 	font-weight:400;
 }
 
@@ -200,7 +200,7 @@ a:hover {
 /*RESUME CSS*/
 
 #resume-title {
-	font-size:36px;
+	font-size:30px;
 	width:100%;
 	text-align:center;
 	position:relative;
@@ -209,41 +209,36 @@ a:hover {
 
 #resume-sublinks {
 	text-align:center;
-	font-size: 24px;
+	font-size: 20px;
 	position:relative;
 }
 
 #resume-sublinks a {
-	font-size:24px;
-}
-
-#resume-dates {
-	text-align: right;
-	font-size: 24px;
+	font-size:20px;
 }
 
 #resume-textbox {
 	line-height:1.5;
-	width:1000px;
-	padding:100px;
+	width:800px;
+	padding:80px;
 	margin:auto;
 	background-color:white;
 	border:6px solid #006666;
-	font-size:24px;
+	font-size:20px;
 }
 
 .resume-bullets {
-	font-size:22px;
+	font-size:18px;
 }
 
 .resume-bullets a {
-	font-size:22px;
+	font-size:18px;
 }
 /*end RESUME CSS*/
 /*==========================*/
 /*CREATIVE CSS*/
 
-#creative-logo {
+.creative-logo {
 	background-color: white;
 	border:2px solid #006666;
 	background-image: url(../img/jfb.svg);
@@ -275,7 +270,7 @@ a:hover {
 }
 
 .creative-text {
-	font-size:24px;
+	font-size:20px;
 	text-align: center;
 	position:relative;
 	margin:20px;
@@ -353,7 +348,7 @@ a:hover {
 
 #project-title {
 	font-family: 'La Belle Aurore', cursive;
-	font-size:36px;
+	font-size:32px;
 	text-align: center;
 	margin-top:50px;
 	margin-bottom:50px;
@@ -369,7 +364,7 @@ a:hover {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:10px;
-	font-size:28px;
+	font-size:24px;
 	text-align:center;
 	text-decoration: none;
 	cursor:pointer;
@@ -384,7 +379,7 @@ a:hover {
 }
 
 .project-content {
-	font-size:24px;
+	font-size:18px;
 	text-align: center;
 	border: 2px solid grey;
 	padding:15px;

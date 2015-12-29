@@ -31,25 +31,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-/*.nav-bar {
-	width:100%;
-	height:60px;
-	position:fixed;
-	top:0;
-	background: rgba(255,255,255,.65);
-	z-index:100;
-}
-
-.nav-items {
-	display:inline-block;
-	color:#333333;
-	font-size:22px;
-	text-align:right;
-	margin-top:50%;
-	width:80px;
-	top:10px;
-}*/
-
 #toggle {
 	background-color:white;
 	cursor:pointer;
@@ -91,6 +72,71 @@ a:hover {
 	-webkit-transition:.3s;
 }
 
+.center {
+	width:100%;
+	position:absolute;
+}
+
+.left {
+	width:50%;
+	margin-right:50%;
+	position:absolute;
+}
+
+.right {
+	width:50%;
+	margin-left:50%;
+	position:absolute;
+}
+
+
+.opaque {
+	background: rgba(255,255,255,.65);
+	z-index:-1;
+}
+
+.aurore {
+	font-family: 'La Belle Aurore', cursive;
+	font-size:42px;
+}
+
+.text-box {
+	border:2px solid grey;
+	padding:2%;
+	font-size:24px;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:7%;
+	position:relative;
+}
+
+.img-holder {
+	width:84%;
+	height:auto;
+	margin-left:8%;
+	margin-top:7%;
+	position:relative;
+}
+
+#pc {
+	font-size:16px;
+	float:right;
+	text-align:right;
+	margin-right:8%;
+}
+
+#pc a {
+	font-size:16px;
+}
+
+#footer {
+	font-size:16px;
+	color:#333333;
+	text-align:center;
+}
+
+/*HOME CSS*/
 #home-top {
 	background-image: url(../img/greenhouse.JPG);
 	opacity:.85;
@@ -115,23 +161,7 @@ a:hover {
 	z-index: -1;
 }
 
-.center {
-	width:100%;
-	position:absolute;
-}
-
-.left {
-	width:50%;
-	margin-right:50%;
-	position:absolute;
-}
-
-.right {
-	width:50%;
-	margin-left:50%;
-	position:absolute;
-}
-#home-circle {
+#home-logo {
 	background-color: white;
 	opacity:.95;
 	background-image: url(../img/jfb.svg);
@@ -163,53 +193,11 @@ a:hover {
 	text-align:center;
 	font-size:32px;
 	font-weight:400;
-/*	margin-top:-40px;*/
 }
 
-.opaque {
-	background: rgba(255,255,255,.65);
-	z-index:-1;
-}
-
-.aurore {
-	font-family: 'La Belle Aurore', cursive;
-	font-size:42px;
-}
-
-.text-box {
-	border:2px solid grey;
-	padding:2%;
-	font-size:24px;
-	width:80%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:7%;
-}
-
-.img-holder {
-	width:84%;
-	height:auto;
-	margin-left:8%;
-	margin-top:7%;
-	position:relative;
-}
-
-#pc {
-	font-size:16px;
-	float:right;
-	text-align:right;
-	margin-right:8%;
-}
-
-#pc a {
-	font-size:16px;
-}
-
-#footer {
-	font-size:16px;
-	color:#333333;
-	text-align:center;
-}
+/*end HOME CSS*/
+/*===========================*/
+/*RESUME CSS*/
 
 #resume-title {
 	font-size:36px;
@@ -233,5 +221,132 @@ a:hover {
 	text-align: right;
 	font-size: 24px;
 }
+
+#resume-textbox {
+	line-height:1.5;
+	width:1000px;
+	padding:100px;
+	margin:auto;
+	background-color:white;
+	border:6px solid #006666;
+	font-size:24px;
+}
+
+.resume-bullets {
+	font-size:22px;
+}
+
+.resume-bullets a {
+	font-size:22px;
+}
+/*end RESUME CSS*/
+/*==========================*/
+/*CREATIVE CSS*/
+
+#creative-logo {
+	background-color: white;
+	border:2px solid #006666;
+	background-image: url(../img/jfb.svg);
+	background-size:86px;
+	border-radius:50%;
+	width: 80px;
+	height: 80px;
+	overflow:fit;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
+	margin-bottom:0;
+	z-index:1;	
+}
+#creative-tabs {
+	font-family: 'La Belle Aurore', cursive;
+	width:100%;
+	font-size:32px;
+	text-align:center;
+	position:relative;
+	margin-top:50px;
+	cursor:pointer;
+}
+
+#creative-tabs a {
+	font-size:32px;
+	margin:20px;
+}
+
+.creative-text {
+	font-size:24px;
+	text-align: center;
+	position:relative;
+	margin:20px;
+}
+#creative-piano {
+	background-image: url(../img/piano.jpg);
+	background-size:320px;
+	border-radius:50%;
+	width: 320px;
+	height: 320px;
+	overflow:hidden;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-5%;
+	z-index:1;	
+}
+
+#creative-ego {
+	background-image: url(../img/ego.jpg);
+	background-size:320px;
+	border-radius:50%;
+	width: 320px;
+	height: 320px;
+	overflow:hidden;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-5%;
+	z-index:1;	
+}
+.photo-grid {
+	width:100%;
+	position:absolute;
+}
+
+.photo {
+	width:30%;
+	float:left;
+	margin-left:2%;
+	position:relative;
+	overflow:hidden;
+}
+
+@media only screen and (max-width:375px) {
+.photo {
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	position:relative;
+	overflow:hidden;
+}
+}
+.grid-item {
+	width:100%;
+}
+
+#photography-tab {
+	color:#006666;
+	text-decoration: underline;
+}
+
+#artwork {
+	display:none;
+}
+
+#music {
+	display:none;
+	width:100%;
+	position:absolute;
+}
+
 
 

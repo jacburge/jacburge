@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$("#toggle").click(function(){
-		$('#nav-bar').slideToggle(400);
+		$('#nav-bar-mobile').slideToggle(400);
 	});
 
 	$('#photography-tab').click(function(){

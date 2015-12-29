@@ -77,5 +77,4 @@ $("#arpa-tab").click(function(){
 $("#martial-tab").click(function(){
 		$('#martial-content').slideToggle(400);
 	});
-
 });

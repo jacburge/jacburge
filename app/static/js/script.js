@@ -44,7 +44,7 @@ jQuery(window).on('load', function(){
 		var $ = jQuery;
 		$('.photo-grid').masonry({
 		itemSelector : '.photo', 
-		gutter: 20});
+		gutter: 0});
 	});
 $('#photography-tab').click(function() {
 	var container = document.querySelector('.photo-grid');
@@ -52,7 +52,7 @@ $('#photography-tab').click(function() {
 	imagesLoaded( container, function() {
 	  $('.photo-grid').masonry({
 		itemSelector : '.photo', 
-		gutter: 20});
+		gutter: 0});
 });
 });
 $('#artwork-tab').click(function() {
@@ -61,10 +61,21 @@ $('#artwork-tab').click(function() {
 	imagesLoaded( container, function() {
 	  $('.photo-grid').masonry({
 		itemSelector : '.photo', 
-		gutter: 20});
+		gutter: 0});
 });
 });
 
-
+$("#starfire-tab").click(function(){
+		$('#starfire-content').slideToggle(400);
+	});
+$("#mighty-tab").click(function(){
+		$('#mighty-content').slideToggle(400);
+	});
+$("#arpa-tab").click(function(){
+		$('#arpa-content').slideToggle(400);
+	});
+$("#martial-tab").click(function(){
+		$('#martial-content').slideToggle(400);
+	});
 
 });

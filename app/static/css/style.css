@@ -281,7 +281,7 @@ a:hover {
 	margin:20px;
 }
 #creative-piano {
-	background-image: url(../static/img/piano.JPG);
+	background-image: url(../img/piano.JPG);
 	background-size:320px;
 	border-radius:50%;
 	width: 320px;
@@ -295,7 +295,7 @@ a:hover {
 }
 
 #creative-ego {
-	background-image: url(../static/img/ego.JPG);
+	background-image: url(../img/ego.JPG);
 	background-size:320px;
 	border-radius:50%;
 	width: 320px;
@@ -347,6 +347,70 @@ a:hover {
 	width:100%;
 	position:absolute;
 }
+/*end CREATIVE CSS*/
+/*=============================*/
+/*PROJECTS CSS*/
 
+#project-title {
+	font-family: 'La Belle Aurore', cursive;
+	font-size:36px;
+	text-align: center;
+	margin-top:50px;
+	margin-bottom:50px;
+	position:relative;
+}
 
+.project-item {
+	width:800px;
+	background-color: #006666;
+	color:white;
+	border:4px solid #006666;
+	padding:15px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	font-size:28px;
+	text-align:center;
+	text-decoration: none;
+	cursor:pointer;
+	position:relative;
+	transition:.2s;
+	-webkit-transition:.2s;
+}
 
+.project-item:hover {
+	background-color: white;
+	color:#006666;
+}
+
+.project-content {
+	font-size:24px;
+	text-align: center;
+	border: 2px solid grey;
+	padding:15px;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+.project-img {
+	width:375px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+#starfire-content {
+	display:none;
+}
+
+#mighty-content {
+	display:none;
+}
+#arpa-content {
+	display:none;
+}
+#martial-content {
+	display:none;
+}

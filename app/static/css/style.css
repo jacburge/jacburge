@@ -281,7 +281,7 @@ a:hover {
 	margin:20px;
 }
 #creative-piano {
-	background-image: url(../img/piano.jpg);
+	background-image: url(../static/img/piano.JPG);
 	background-size:320px;
 	border-radius:50%;
 	width: 320px;
@@ -295,7 +295,7 @@ a:hover {
 }
 
 #creative-ego {
-	background-image: url(../img/ego.jpg);
+	background-image: url(../static/img/ego.JPG);
 	background-size:320px;
 	border-radius:50%;
 	width: 320px;

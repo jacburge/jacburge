@@ -133,6 +133,12 @@ a:hover {
 	font-size:36px;
 }
 
+@media only screen and (max-width:375px) {
+	.aurore{
+		font-size:28px;
+	}
+}
+
 .text-box {
 	border:2px solid grey;
 	padding:2%;
@@ -167,6 +173,20 @@ a:hover {
 	font-size:16px;
 	color:#333333;
 	text-align:center;
+}
+
+@media only screen and (max-width:375px) {
+	#footer {
+		font-size:12px;
+	}
+
+	#pc {
+		font-size:12px;
+	}
+
+	#pc a {
+		font-size:12px;
+	}
 }
 
 /*HOME CSS*/
@@ -222,6 +242,12 @@ a:hover {
 	font-weight:400;
 	margin-top:10px;
 	z-index: 3;
+}
+
+@media only screen and (max-width:375px) {
+	#home-title {
+		font-size:36px;
+	}
 }
 
 #home-subtext {
@@ -287,6 +313,7 @@ a:hover {
 	#resume-textbox {
 		width:90%;
 		font-size:16px;
+		padding:1%;
 	}
 
 	.resume-bullets {

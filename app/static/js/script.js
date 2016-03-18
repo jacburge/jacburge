@@ -74,6 +74,9 @@ $("#mighty-tab").click(function(){
 $("#arpa-tab").click(function(){
 		$('#arpa-content').slideToggle(400);
 	});
+$("#wwr-tab").click(function(){
+		$('#wwr-content').slideToggle(400);
+	});
 $("#martial-tab").click(function(){
 		$('#martial-content').slideToggle(400);
 	});

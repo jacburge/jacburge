@@ -80,4 +80,7 @@ $("#wwr-tab").click(function(){
 $("#martial-tab").click(function(){
 		$('#martial-content').slideToggle(400);
 	});
+$("#slammm-tab").click(function(){
+		$('#slammm-content').slideToggle(400);
+	});
 });

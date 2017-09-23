@@ -408,6 +408,35 @@ a:hover {
 	overflow:hidden;
 }
 
+.artwork-tab {
+	color:#006666;
+	text-decoration: underline;
+}
+
+.photography-tab {
+	color:#333333;
+	text-decoration:  none;
+}
+
+.music-tab {
+	color:#333333;
+	text-decoration:  none;
+}
+
+.artwork {
+	display:inline-block;
+}
+
+.photography {
+	display:none;
+}
+
+.music {
+	display:none;
+	width:100%;
+	position:absolute;
+}
+
 @media only screen and (max-width:375px) {
 .photo {
 	width:80%;
@@ -421,16 +450,30 @@ a:hover {
 	width:100%;
 }
 
-#photography-tab {
+.artwork-tab {
 	color:#006666;
 	text-decoration: underline;
 }
 
-#artwork {
+.photography-tab {
+	color:#333333;
+	text-decoration:  none;
+}
+
+.music-tab {
+	color:#333333;
+	text-decoration:  none;
+}
+
+.artwork {
+	display:inline-block;
+}
+
+.photography {
 	display:none;
 }
 
-#music {
+.music {
 	display:none;
 	width:100%;
 	position:absolute;

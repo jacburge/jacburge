@@ -1,5 +1,7 @@
 from app import app
 from flask import render_template
+from whitenoise import WhiteNoise
+
 
 @app.route('/')
 def index():
@@ -16,4 +18,3 @@ def projects():
 @app.route('/resume')
 def resume():
 	return render_template('resume.html')
-

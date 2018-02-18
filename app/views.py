@@ -1,7 +1,7 @@
 from app import app
 from flask import render_template
 from whitenoise import WhiteNoise
-
+app.wsgi_app = WhiteNoise(app.wsgi_app, root='static/')
 
 @app.route('/')
 def index():

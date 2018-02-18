@@ -1,8 +1,16 @@
 from flask import Flask
-from whitenoise import WhiteNoise
+
+# from flask_compress import Compress
 
 app = Flask(__name__)
-app.wsgi_app = WhiteNoise(app.wsgi_app, root='static/')
+# Compress(app)
+
+# compress = Compress()
+
+# def start_app():
+#     app = Flask(__name__)
+#     compress.init_app(app)
+#     return app
 
 from app import views, models
 

@@ -84,4 +84,7 @@ $("#martial-tab").click(function(){
 $("#slammm-tab").click(function(){
 		$('#slammm-content').slideToggle(400);
 	});
+$("#academic-tab").click(function(){
+		$('#academic-content').slideToggle(400);
+	});
 });

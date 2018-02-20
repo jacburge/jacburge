@@ -281,7 +281,7 @@ a:hover {
 
 #resume-textbox {
 	line-height:1.5;
-	width:60%;
+	width:80%;
 	padding:5%;
 	margin:auto;
 	background-color:white;
@@ -311,7 +311,7 @@ a:hover {
 	}
 
 	#resume-textbox {
-		width:90%;
+		width:95%;
 		font-size:16px;
 		padding:1%;
 	}
@@ -560,7 +560,10 @@ a:hover {
 #martial-content {
 	display:none;
 }
-
+#academic-content {
+	display:none;
+}
 #slammm-content {
 	display:none;
 }
+

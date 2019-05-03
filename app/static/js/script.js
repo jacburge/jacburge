@@ -72,6 +72,9 @@ $("#starfire-tab").click(function(){
 $("#mighty-tab").click(function(){
 		$('#mighty-content').slideToggle(400);
 	});
+$("#data-tab").click(function(){
+		$('#data-content').slideToggle(400);
+	});
 $("#arpa-tab").click(function(){
 		$('#arpa-content').slideToggle(400);
 	});

@@ -570,7 +570,9 @@ a:hover {
 		width:80%;
 	}
 }
-
+#data-content {
+	display:none !important;
+}
 #project-vid {
 	width:60%;
 }
@@ -596,7 +598,5 @@ a:hover {
 #slammm-content {
 	display:none;
 }
-#data-content {
-	display:none;
-}
+
 

@@ -148,21 +148,25 @@ a:hover {
 	margin-right:auto;
 	margin-top:7%;
 	position:relative;
+	text-align: center;
 }
 
 .img-holder {
-	width:84%;
+	width:80%;
 	height:auto;
-	margin-left:8%;
-	margin-top:7%;
-	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+	display:block;
+	border: 3px solid darkgoldenrod;
+	border-radius:3px;
 }
 
 #pc {
-	font-size:16px;
-	float:right;
-	text-align:right;
-	margin-right:8%;
+	font-size:12px;
+	text-align:center;
+	margin-top:5px;
+	/*margin-right:8%;*/
 }
 
 #pc a {
